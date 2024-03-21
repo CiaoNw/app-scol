@@ -1,0 +1,17 @@
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.t{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    gap: 50px;
+    color: black;
+}

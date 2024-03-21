@@ -1,0 +1,31 @@
+<div>
+    <img src="/assets/paris.jpg" alt="image">
+    <table>
+        <thead>
+            <tr>
+                <td>Prénom</td>
+                <td>Adresse</td>
+                <td>Numéro</td>
+                <td>Ville</td>
+                <td>Mail</td>
+                <td>Sexe</td>
+                <td>Age</td>
+                <td>ID</td>
+            </tr>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let etudiant of etudiants">
+            <tr *ngIf="etudiant._ville=='Paris'">
+                <td>{{etudiant._prenom}}</td>
+                <td>{{etudiant._rue}}</td>
+                <td>{{etudiant._cp}}</td>
+                <td>{{etudiant._ville}}</td>
+                <td>{{etudiant._courriel}}</td>
+                <td>{{etudiant._genre}}</td>
+                <td>{{etudiant._age}}</td>
+                <td>{{etudiant._idCand}}</td>
+            </tr>    
+        </ng-container>
+        </tbody>
+    </table>
+</div>

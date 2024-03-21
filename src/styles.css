@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+img{
+    width: 850px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 850px;
+}
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: #5356FF;
+    color: white;
+}
+thead{
+    background-color: #5356FF;
+    color: white;
+    font-weight: 600;
+}

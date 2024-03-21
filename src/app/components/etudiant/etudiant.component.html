@@ -1,0 +1,25 @@
+<div>
+    <img src="/assets/etudiants.jpg" alt="image">
+    <table>
+        <tr>
+            <th>Prénom</th>
+            <th>Adresse</th>
+            <th>Numéro</th>
+            <th>Ville</th>
+            <th>Mail</th>
+            <th>Sexe</th>
+            <th>Age</th>
+            <th>ID</th>
+        </tr>
+        <tr *ngFor="let etudiant of etudiants">
+            <td>{{etudiant._prenom}}</td>
+            <td>{{etudiant._rue}}</td>
+            <td>{{etudiant._cp}}</td>
+            <td>{{etudiant._ville}}</td>
+            <td>{{etudiant._courriel}}</td>
+            <td>{{etudiant._genre}}</td>
+            <td>{{etudiant._age}}</td>
+            <td>{{etudiant._idCand}}</td>
+        </tr>    
+    </table>
+</div>
